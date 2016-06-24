@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3427CBC21B7F8174003090E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3427CBC11B7F8174003090E7 /* AppDelegate.swift */; };
+		3427CBC71B7F8174003090E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3427CBC51B7F8174003090E7 /* Main.storyboard */; };
+		3427CBC91B7F8174003090E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3427CBC81B7F8174003090E7 /* Assets.xcassets */; };
+		3427CBCC1B7F8174003090E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3427CBCA1B7F8174003090E7 /* LaunchScreen.storyboard */; };
+		3427CBD71B7F8174003090E7 /* CatDogYearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3427CBD61B7F8174003090E7 /* CatDogYearsTests.swift */; };
+		3427CBE21B7F8174003090E7 /* CatDogYearsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3427CBE11B7F8174003090E7 /* CatDogYearsUITests.swift */; };
+		3427CBF01B7F81CC003090E7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3427CBEF1B7F81CC003090E7 /* MainVC.swift */; };
+		3427CBF31B7F8470003090E7 /* meow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3427CBF21B7F8470003090E7 /* meow.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3427CBD31B7F8174003090E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3427CBB61B7F8174003090E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3427CBBD1B7F8174003090E7;
+			remoteInfo = CatDogYears;
+		};
+		3427CBDE1B7F8174003090E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3427CBB61B7F8174003090E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3427CBBD1B7F8174003090E7;
+			remoteInfo = CatDogYears;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3427CBBE1B7F8174003090E7 /* MyCatDogYears.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCatDogYears.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3427CBC11B7F8174003090E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3427CBC61B7F8174003090E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3427CBC81B7F8174003090E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3427CBCB1B7F8174003090E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3427CBCD1B7F8174003090E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3427CBD21B7F8174003090E7 /* MyCatDogYears.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCatDogYears.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3427CBD61B7F8174003090E7 /* CatDogYearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDogYearsTests.swift; sourceTree = "<group>"; };
+		3427CBD81B7F8174003090E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3427CBDD1B7F8174003090E7 /* MyCatDogYears.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCatDogYears.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3427CBE11B7F8174003090E7 /* CatDogYearsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDogYearsUITests.swift; sourceTree = "<group>"; };
+		3427CBE31B7F8174003090E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3427CBEF1B7F81CC003090E7 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		3427CBF11B7F8464003090E7 /* bark.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bark.m4a; sourceTree = "<group>"; };
+		3427CBF21B7F8470003090E7 /* meow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meow.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3427CBBB1B7F8174003090E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3427CBCF1B7F8174003090E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3427CBDA1B7F8174003090E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3427CBB51B7F8174003090E7 = {
+			isa = PBXGroup;
+			children = (
+				3427CBC01B7F8174003090E7 /* CatDogYears */,
+				3427CBD51B7F8174003090E7 /* CatDogYearsTests */,
+				3427CBE01B7F8174003090E7 /* CatDogYearsUITests */,
+				3427CBBF1B7F8174003090E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3427CBBF1B7F8174003090E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3427CBBE1B7F8174003090E7 /* MyCatDogYears.app */,
+				3427CBD21B7F8174003090E7 /* MyCatDogYears.xctest */,
+				3427CBDD1B7F8174003090E7 /* MyCatDogYears.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3427CBC01B7F8174003090E7 /* CatDogYears */ = {
+			isa = PBXGroup;
+			children = (
+				3427CBC11B7F8174003090E7 /* AppDelegate.swift */,
+				3427CBC51B7F8174003090E7 /* Main.storyboard */,
+				3427CBC81B7F8174003090E7 /* Assets.xcassets */,
+				3427CBCA1B7F8174003090E7 /* LaunchScreen.storyboard */,
+				3427CBCD1B7F8174003090E7 /* Info.plist */,
+				3427CBEF1B7F81CC003090E7 /* MainVC.swift */,
+				3427CBF11B7F8464003090E7 /* bark.m4a */,
+				3427CBF21B7F8470003090E7 /* meow.wav */,
+			);
+			path = CatDogYears;
+			sourceTree = "<group>";
+		};
+		3427CBD51B7F8174003090E7 /* CatDogYearsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3427CBD61B7F8174003090E7 /* CatDogYearsTests.swift */,
+				3427CBD81B7F8174003090E7 /* Info.plist */,
+			);
+			path = CatDogYearsTests;
+			sourceTree = "<group>";
+		};
+		3427CBE01B7F8174003090E7 /* CatDogYearsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3427CBE11B7F8174003090E7 /* CatDogYearsUITests.swift */,
+				3427CBE31B7F8174003090E7 /* Info.plist */,
+			);
+			path = CatDogYearsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3427CBBD1B7F8174003090E7 /* MyCatDogYears */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3427CBE61B7F8174003090E7 /* Build configuration list for PBXNativeTarget "MyCatDogYears" */;
+			buildPhases = (
+				3427CBBA1B7F8174003090E7 /* Sources */,
+				3427CBBB1B7F8174003090E7 /* Frameworks */,
+				3427CBBC1B7F8174003090E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCatDogYears;
+			productName = CatDogYears;
+			productReference = 3427CBBE1B7F8174003090E7 /* MyCatDogYears.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3427CBD11B7F8174003090E7 /* MyCatDogYearsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3427CBE91B7F8174003090E7 /* Build configuration list for PBXNativeTarget "MyCatDogYearsTests" */;
+			buildPhases = (
+				3427CBCE1B7F8174003090E7 /* Sources */,
+				3427CBCF1B7F8174003090E7 /* Frameworks */,
+				3427CBD01B7F8174003090E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3427CBD41B7F8174003090E7 /* PBXTargetDependency */,
+			);
+			name = MyCatDogYearsTests;
+			productName = CatDogYearsTests;
+			productReference = 3427CBD21B7F8174003090E7 /* MyCatDogYears.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3427CBDC1B7F8174003090E7 /* MyCatDogYearsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3427CBEC1B7F8174003090E7 /* Build configuration list for PBXNativeTarget "MyCatDogYearsUITests" */;
+			buildPhases = (
+				3427CBD91B7F8174003090E7 /* Sources */,
+				3427CBDA1B7F8174003090E7 /* Frameworks */,
+				3427CBDB1B7F8174003090E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3427CBDF1B7F8174003090E7 /* PBXTargetDependency */,
+			);
+			name = MyCatDogYearsUITests;
+			productName = CatDogYearsUITests;
+			productReference = 3427CBDD1B7F8174003090E7 /* MyCatDogYears.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3427CBB61B7F8174003090E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "James Avakian";
+				TargetAttributes = {
+					3427CBBD1B7F8174003090E7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = PD9W33H4SM;
+					};
+					3427CBD11B7F8174003090E7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3427CBBD1B7F8174003090E7;
+					};
+					3427CBDC1B7F8174003090E7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3427CBBD1B7F8174003090E7;
+					};
+				};
+			};
+			buildConfigurationList = 3427CBB91B7F8174003090E7 /* Build configuration list for PBXProject "MyCatDogYears" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3427CBB51B7F8174003090E7;
+			productRefGroup = 3427CBBF1B7F8174003090E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3427CBBD1B7F8174003090E7 /* MyCatDogYears */,
+				3427CBD11B7F8174003090E7 /* MyCatDogYearsTests */,
+				3427CBDC1B7F8174003090E7 /* MyCatDogYearsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3427CBBC1B7F8174003090E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3427CBF31B7F8470003090E7 /* meow.wav in Resources */,
+				3427CBCC1B7F8174003090E7 /* LaunchScreen.storyboard in Resources */,
+				3427CBC91B7F8174003090E7 /* Assets.xcassets in Resources */,
+				3427CBC71B7F8174003090E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3427CBD01B7F8174003090E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3427CBDB1B7F8174003090E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3427CBBA1B7F8174003090E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3427CBC21B7F8174003090E7 /* AppDelegate.swift in Sources */,
+				3427CBF01B7F81CC003090E7 /* MainVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3427CBCE1B7F8174003090E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3427CBD71B7F8174003090E7 /* CatDogYearsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3427CBD91B7F8174003090E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3427CBE21B7F8174003090E7 /* CatDogYearsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3427CBD41B7F8174003090E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3427CBBD1B7F8174003090E7 /* MyCatDogYears */;
+			targetProxy = 3427CBD31B7F8174003090E7 /* PBXContainerItemProxy */;
+		};
+		3427CBDF1B7F8174003090E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3427CBBD1B7F8174003090E7 /* MyCatDogYears */;
+			targetProxy = 3427CBDE1B7F8174003090E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3427CBC51B7F8174003090E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3427CBC61B7F8174003090E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3427CBCA1B7F8174003090E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3427CBCB1B7F8174003090E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3427CBE41B7F8174003090E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3427CBE51B7F8174003090E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3427CBE71B7F8174003090E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CatDogYears/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xoa.CatDogYears;
+				PRODUCT_NAME = MyCatDogYears;
+			};
+			name = Debug;
+		};
+		3427CBE81B7F8174003090E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CatDogYears/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xoa.CatDogYears;
+				PRODUCT_NAME = MyCatDogYears;
+			};
+			name = Release;
+		};
+		3427CBEA1B7F8174003090E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CatDogYearsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbsjason.CatDogYearsTests;
+				PRODUCT_NAME = MyCatDogYears;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCatDogYears.app/MyCatDogYears";
+			};
+			name = Debug;
+		};
+		3427CBEB1B7F8174003090E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CatDogYearsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbsjason.CatDogYearsTests;
+				PRODUCT_NAME = MyCatDogYears;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCatDogYears.app/MyCatDogYears";
+			};
+			name = Release;
+		};
+		3427CBED1B7F8174003090E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CatDogYearsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbsjason.CatDogYearsUITests;
+				PRODUCT_NAME = MyCatDogYears;
+				TEST_TARGET_NAME = CatDogYears;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3427CBEE1B7F8174003090E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CatDogYearsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbsjason.CatDogYearsUITests;
+				PRODUCT_NAME = MyCatDogYears;
+				TEST_TARGET_NAME = CatDogYears;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3427CBB91B7F8174003090E7 /* Build configuration list for PBXProject "MyCatDogYears" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3427CBE41B7F8174003090E7 /* Debug */,
+				3427CBE51B7F8174003090E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3427CBE61B7F8174003090E7 /* Build configuration list for PBXNativeTarget "MyCatDogYears" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3427CBE71B7F8174003090E7 /* Debug */,
+				3427CBE81B7F8174003090E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3427CBE91B7F8174003090E7 /* Build configuration list for PBXNativeTarget "MyCatDogYearsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3427CBEA1B7F8174003090E7 /* Debug */,
+				3427CBEB1B7F8174003090E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3427CBEC1B7F8174003090E7 /* Build configuration list for PBXNativeTarget "MyCatDogYearsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3427CBED1B7F8174003090E7 /* Debug */,
+				3427CBEE1B7F8174003090E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3427CBB61B7F8174003090E7 /* Project object */;
+}
